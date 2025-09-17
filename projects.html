@@ -2,43 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Projects - Nate Greco</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-  </nav>
-
   <header>
-    <h1>Projects</h1>
-    <p>Organized by category: School, Work, Personal</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="school-projects">
-    <h2>School Projects</h2>
-    <div class="project-card">
-      <h3>Senior Design: Autometrix System</h3>
-      <p>Developed automated textile cutting fixture. Focused on pneumatics, feedback control, and weldment design.</p>
-    </div>
-    <!-- Add more -->
-  </section>
+  <main>
+    <h1>Projects</h1>
 
-  <section id="work-projects">
-    <h2>Work Projects</h2>
-    <div class="project-card">
-      <h3>Shop Supervisor Tools</h3>
-      <p>Designed fixture calibration and MIG/TIG setup tools used by Cal Poly shop staff.</p>
-    </div>
-  </section>
+    <section id="school-projects">
+      <h2>School Projects</h2>
+      <!-- Your school projects here -->
+    </section>
 
-  <section id="personal-projects">
-    <h2>Personal Projects</h2>
-    <div class="project-card">
-      <h3>Custom Truck Camper</h3>
-      <p>Scratch-built HDPE/aluminum hybrid pop-up camper. Waterproof, modular, solar-powered.</p>
-    </div>
-  </section>
+    <section id="work-projects">
+      <h2>Work Projects</h2>
+      <!-- Your work projects here -->
+    </section>
+
+    <section id="personal-projects">
+      <h2>Personal Projects</h2>
+
+      <!-- Camper Project Card -->
+      <div class="project-card">
+        <h3><a href="camper.html">Custom Pop-up Truck Camper</a></h3>
+        <img src="images/IMG_0403.JPG" alt="Custom Camper" class="thumb">
+        <p>
+          A fully custom-built slide-in pop-up truck camper designed as a personal capstone project. 
+          Built lightweight with universal fit, solar-powered electronics, and a pop-up roof 
+          for maximum headroom and efficiency.
+        </p>
+        <a href="camper.html" class="btn">View Project</a>
+      </div>
+
+      <!-- Other personal projects -->
+    </section>
+  </main>
 </body>
 </html>
