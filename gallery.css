@@ -11,6 +11,15 @@ body {
   position: relative;
   margin: auto;
 }
+.slideshow-container img {
+  height: 600px;            /* pick a consistent height */
+  width: auto;              /* scale width automatically */
+  object-fit: contain;      /* fit entire image without cropping */
+  background-color: #e5e7eb;/* gray background fills empty space */
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;       /* optional: round corners */
+}
 
 /* Hide the images by default */
 .mySlides {
