@@ -102,7 +102,9 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  margin-top: 14px;
+  justify-content: center;   /* centers the grid content */
+  max-width: 900px;          /* keeps cards from stretching edge-to-edge */
+  margin: 0 auto;            /* centers the whole grid block */
 }
 .project-card {
   border: 1px solid #e5e7eb;
