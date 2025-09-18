@@ -65,7 +65,7 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
   margin: 20px 0 12px;
 }
 .section-img {
-  width: 100%;
+  width: 50%;
   border-radius: 14px;
   box-shadow: 0 8px 24px rgba(2,6,23,0.10);
   margin: 14px 0 8px;
