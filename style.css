@@ -154,3 +154,24 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
   .content { width: 92%; margin-top: 20px; }
   nav ul { padding: 10px 4%; gap: 14px; }
 }
+/* ===== Section Headings with Divider Lines (Projects page only) ===== */
+#projects-page h1,
+#projects-page h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 40px 0 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#projects-page h1::before,
+#projects-page h1::after,
+#projects-page h2::before,
+#projects-page h2::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: #e5e7eb;
+}
