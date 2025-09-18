@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senior Project</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .pdf-container {
+      width: 100%;
+      max-width: 1000px;
+      margin: 40px auto;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .pdf-container iframe {
+      width: 100%;
+      height: 800px; /* Adjust height depending on content */
+      border: none;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>Senior Project</h1>
+
+    <h2>Presentation Poster</h2>
+    <div class="pdf-container">
+      <iframe src="pdfs/SPposter.pdf"></iframe>
+    </div>
+
+    <h2>Full Report</h2>
+    <div class="pdf-container">
+      <iframe src="pdfs/senior_project_paper.pdf"></iframe>
+    </div>
+  </main>
+
+</body>
+</html>
