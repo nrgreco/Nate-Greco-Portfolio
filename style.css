@@ -75,6 +75,7 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
 /* Optional: two-up image grid if you add a wrapper <div class="img-grid"> */
 .img-grid {
   display: grid;
+  margin: 14px auto 8px;
   gap: 14px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
