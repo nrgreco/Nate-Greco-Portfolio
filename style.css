@@ -75,9 +75,20 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
 /* Optional: two-up image grid if you add a wrapper <div class="img-grid"> */
 .img-grid {
   display: grid;
-  margin: 14px auto 8px;
-  gap: 14px;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px; /* space between images */
+  justify-content: center; /* center the whole grid horizontally */
+  align-items: center;     /* center images vertically if rows differ in height */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin: 20px 0;
+}
+
+.img-grid img {
+  width: 100%;              /* makes each image fill its grid cell */
+  max-width: 500px;         /* controls maximum size so they don’t get too huge */
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(2,6,23,0.1);
+  display: block;
+  margin: 0 auto;           /* keeps them centered inside their cells */
 }
 
 /* ===== Project Cards (projects.html) ===== */
