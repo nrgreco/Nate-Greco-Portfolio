@@ -113,6 +113,9 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
   background: #fff;
   box-shadow: 0 10px 28px rgba(2,6,23,0.06);
   transition: transform .08s ease, box-shadow .2s ease, border-color .2s ease;
+  justify-content: center;   /* centers the grid content */
+  max-width: 900px;          /* keeps cards from stretching edge-to-edge */
+  margin: 0 auto;            /* centers the whole grid block */
 }
 .project-card:hover {
   transform: translateY(-2px);
