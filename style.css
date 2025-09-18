@@ -83,15 +83,15 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
 }
 
 .img-grid img {
-  height: 280px;           /* fixed height for consistency */
+  height: 320px;           /* fixed height for consistency */
   width: auto;             /* width adjusts automatically */
   object-fit: contain;     /* keeps the full image visible */
   border-radius: 14px;
   box-shadow: 0 8px 24px rgba(2,6,23,0.1);
   display: block;
   margin: 0 auto;          /* centers horizontally */
-  background: #f8fafc;     /* light background fills space around smaller images */
-  padding: 6px;            /* optional: add some breathing room */
+  
+
 }
 
 /* ===== Project Cards (projects.html) ===== */
