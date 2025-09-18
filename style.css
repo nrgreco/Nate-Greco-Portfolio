@@ -65,12 +65,13 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
   margin: 20px 0 12px;
 }
 .section-img {
+  display: block;          /* makes the image respect margin auto */
   width: 50%;
+  max-width: 600px;        /* optional: prevent giant images on large screens */
+  margin: 14px auto 8px;   /* auto on left/right centers it */
   border-radius: 14px;
   box-shadow: 0 8px 24px rgba(2,6,23,0.10);
-  margin: 14px 0 8px;
 }
-
 /* Optional: two-up image grid if you add a wrapper <div class="img-grid"> */
 .img-grid {
   display: grid;
