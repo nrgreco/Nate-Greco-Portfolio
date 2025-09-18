@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -14,40 +12,48 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
+       
       </ul>
     </nav>
   </header>
 
-  <main>
+  <div class="content">
     <h1>Projects</h1>
 
     <section id="school-projects">
       <h2>School Projects</h2>
-      <!-- Your school projects here -->
+      <div class="projects-grid">
+        <!-- Example project card -->
+        <div class="project-card">
+          <h3>Custom Valve Design</h3>
+          <p>Senior design project focused on designing and prototyping a low-profile valve.</p>
+        </div>
+      </div>
     </section>
 
     <section id="work-projects">
       <h2>Work Projects</h2>
-      <!-- Your work projects here -->
+      <div class="projects-grid">
+        <!-- Example project card -->
+        <div class="project-card">
+          <h3>Shop Technician</h3>
+          <p>Machining, welding supervision, and paint work at Cal Poly machine shops.</p>
+        </div>
+      </div>
     </section>
 
     <section id="personal-projects">
       <h2>Personal Projects</h2>
-
-      <!-- Camper Project Card -->
-      <div class="project-card">
-        <h3><a href="camper.html">Custom Pop-up Truck Camper</a></h3>
-        <img src="images/IMG_0403.JPG" alt="Custom Camper" class="thumb">
-        <p>
-          A fully custom-built slide-in pop-up truck camper designed as a personal capstone project. 
-          Built lightweight with universal fit, solar-powered electronics, and a pop-up roof 
-          for maximum headroom and efficiency.
-        </p>
-        <a href="camper.html" class="btn">View Project</a>
+      <div class="projects-grid">
+        <!-- Camper Project Card -->
+        <div class="project-card">
+          <h3><a href="camper.html">Custom Pop-up Truck Camper</a></h3>
+          <img src="images/IMG_0403.JPG" alt="Custom Camper" class="thumb">
+          <p>A fully custom-built slide-in pop-up truck camper designed as a personal capstone project.</p>
+          <a href="camper.html" class="btn">View Project</a>
+        </div>
       </div>
-
-      <!-- Other personal projects -->
     </section>
-  </main>
+  </div>
 </body>
 </html>
