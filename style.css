@@ -100,12 +100,12 @@ nav a:hover { color: #0ea5e9; text-decoration: none; }
 }
 .projects-grid {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  justify-content: center;   /* centers the grid content */
-  max-width: 900px;          /* keeps cards from stretching edge-to-edge */
-  margin: 0 auto;            /* centers the whole grid block */
+  grid-template-columns: repeat(2, 1fr); /* exactly 2 per row */
+  gap: 28px;                             /* space between cards */
+  max-width: 1200px;                     /* fill most of page */
+  margin: 0 auto;
 }
+
 .project-card {
   border: 1px solid #e5e7eb;
   border-radius: 16px;
